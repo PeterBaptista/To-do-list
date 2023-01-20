@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap" rel="stylesheet">
+        <title>My todo app</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="buttons.css">
+        <link rel="stylesheet" href="general.css">
+    </head>
+    <body>
+        <div class="list-space">
+            <h1>To do list</h1>
+            <div class="content-space">
+                <div class="place-to-add-todo">
+                    <input id="todo-title" type="text">
+                    <input id="date-picker" type="date">
+                    <button onclick="addTodo();" id="add-button"><img src="images/plus.png" alt="plus-icon" id="plus-image"></button>  
+                </div> 
+                <div id="todo-list"></div>
+            </div>
+        </div>
+        <div>
+            <button id="refresh-button" onclick="refresh();">Back to original</button>
+        </div>
+
+       <script src="index.js"></script>
+    </body>
+</html>

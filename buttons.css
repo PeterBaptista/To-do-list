@@ -1,0 +1,58 @@
+#plus-image{
+    width:20px;
+    
+}
+#add-button{
+    border-radius:100%;
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+.edit-button{
+    border-radius:100%;
+    border: none;
+    vertical-align: middle;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+.edit-image{
+    width: 20px;
+   
+}
+
+.delete-button{
+    border-radius:100%;
+    border: none;
+    vertical-align: middle;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    
+}
+
+.trash-image{
+    width: 20px;
+   
+}
+
+
+#refresh-button{
+    margin-top: 10px;
+    background-color: rgb(47, 151, 237);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

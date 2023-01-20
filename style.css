@@ -1,0 +1,25 @@
+
+
+.list-space{
+
+    text-align: left;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.content-space{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.texto-todo{
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+    vertical-align: middle;
+}
+
+
+
